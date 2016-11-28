@@ -4,7 +4,7 @@
 	<Project>
 		<Option title="xgboost"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="clang"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
@@ -37,13 +37,66 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="xgboost">
-				<Option output="/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/xgboost" prefix_auto="0" extension_auto="0"/>
+			<Target title="libxgboost">
+				<Option output="/Users/zhangwuhang/Documents/workspace/xgboost/lib/libxgboost.dylib" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug"/>
 				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/Users/zhangwuhang/Documents/workspace/xgboost/include"/>
+					<Add directory="/Users/zhangwuhang/Documents/workspace/xgboost/dmlc-core/include"/>
+					<Add directory="/Users/zhangwuhang/Documents/workspace/xgboost/rabit/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/7.3.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 libxgboost"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libxgboost/fast">
+				<Option output="/Users/zhangwuhang/Documents/workspace/xgboost/lib/libxgboost.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/zhangwuhang/Documents/workspace/xgboost/include"/>
+					<Add directory="/Users/zhangwuhang/Documents/workspace/xgboost/dmlc-core/include"/>
+					<Add directory="/Users/zhangwuhang/Documents/workspace/xgboost/rabit/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/7.3.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 libxgboost/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xgboost">
+				<Option output="/Users/zhangwuhang/Documents/workspace/xgboost/xgboost" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangwuhang/Documents/workspace/xgboost"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/zhangwuhang/Documents/workspace/xgboost/include"/>
+					<Add directory="/Users/zhangwuhang/Documents/workspace/xgboost/dmlc-core/include"/>
+					<Add directory="/Users/zhangwuhang/Documents/workspace/xgboost/rabit/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/7.3.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -60,12 +113,15 @@
 				</MakeCommands>
 			</Target>
 			<Target title="xgboost/fast">
-				<Option output="/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/xgboost" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug"/>
+				<Option output="/Users/zhangwuhang/Documents/workspace/xgboost/xgboost" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangwuhang/Documents/workspace/xgboost"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/Users/zhangwuhang/Documents/workspace/xgboost/include"/>
+					<Add directory="/Users/zhangwuhang/Documents/workspace/xgboost/dmlc-core/include"/>
+					<Add directory="/Users/zhangwuhang/Documents/workspace/xgboost/rabit/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/7.3.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -81,260 +137,207 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="rabit">
+				<Option output="/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/librabit.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/zhangwuhang/Documents/workspace/xgboost/include"/>
+					<Add directory="/Users/zhangwuhang/Documents/workspace/xgboost/dmlc-core/include"/>
+					<Add directory="/Users/zhangwuhang/Documents/workspace/xgboost/rabit/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/7.3.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 rabit"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rabit/fast">
+				<Option output="/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/librabit.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/zhangwuhang/Documents/workspace/xgboost/include"/>
+					<Add directory="/Users/zhangwuhang/Documents/workspace/xgboost/dmlc-core/include"/>
+					<Add directory="/Users/zhangwuhang/Documents/workspace/xgboost/rabit/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/7.3.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 rabit/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/R-package/src/xgboost_R.cpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/c_api/c_api.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/R-package/src/xgboost_R.h">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/c_api/c_api_error.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/R-package/src/xgboost_assert.c">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/c_api/c_api_error.h">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/java/xgboost4j_wrapper.cpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/cli_main.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/java/xgboost4j_wrapper.h">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/common/common.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/data.h">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/common/common.h">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gblinear-inl.hpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/data/data.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gbm.cpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/data/simple_csr_source.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gbm.h">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/data/simple_csr_source.h">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gbtree-inl.hpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/data/simple_dmatrix.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/io/dmlc_simple.cpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/data/simple_dmatrix.h">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/io/io.cpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_dmatrix.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/io/io.h">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_dmatrix.h">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/io/libsvm_parser.h">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_raw_format.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/io/page_dmatrix-inl.hpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_source.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/io/page_fmatrix-inl.hpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_source.h">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/io/simple_dmatrix-inl.hpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_writer.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/io/simple_fmatrix-inl.hpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gblinear.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/io/sparse_batch_page.h">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gbm.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/learner/dmatrix.h">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gbtree.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/learner/evaluation-inl.hpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/learner.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/learner/evaluation.h">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/logging.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/learner/helper_utils.h">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/metric/elementwise_metric.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/learner/learner-inl.hpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/metric/metric.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/learner/objective-inl.hpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/metric/multiclass_metric.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/learner/objective.h">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/metric/rank_metric.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/sync/sync.h">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/objective/multiclass_obj.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/model.h">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/objective/objective.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/param.h">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/objective/rank_obj.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater.cpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/objective/regression_obj.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater.h">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/tree_model.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_basemaker-inl.hpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/tree_updater.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_colmaker-inl.hpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_colmaker.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_distcol-inl.hpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_histmaker.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_histmaker-inl.hpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_prune.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_prune-inl.hpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_refresh.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_refresh-inl.hpp">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_skmaker.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_skmaker-inl.hpp">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_sync-inl.hpp">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/utils/base64-inl.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/utils/bitmap.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/utils/config.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/utils/fmap.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/utils/group_data.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/utils/io.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/utils/iterator.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/utils/math.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/utils/omp.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/utils/quantile.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/utils/random.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/utils/thread.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/utils/thread_buffer.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/utils/utils.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/xgboost_main.cpp">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/guide/basic.cc">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/guide/broadcast.cc">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/guide/lazy_allreduce.cc">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/include/dmlc/io.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/include/rabit.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/include/rabit/engine.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/include/rabit/io.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/include/rabit/rabit-inl.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/include/rabit/timer.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/include/rabit/utils.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/include/rabit_serializable.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/allreduce_base.cc">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/allreduce_base.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/allreduce_mock.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/allreduce_robust-inl.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/allreduce_robust.cc">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/allreduce_robust.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine.cc">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_base.cc">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_empty.cc">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_mock.cc">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_mpi.cc">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/socket.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/lazy_recover.cc">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/local_recover.cc">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/model_recover.cc">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/speed_test.cc">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/wrapper/rabit_wrapper.cc">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/wrapper/rabit_wrapper.h">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/wrapper/xgboost_wrapper.cpp">
-			<Option target="xgboost"/>
-		</Unit>
-		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/wrapper/xgboost_wrapper.h">
+		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_sync.cc">
+			<Option target="libxgboost"/>
 			<Option target="xgboost"/>
 		</Unit>
 		<Unit filename="/Users/zhangwuhang/Documents/workspace/xgboost/CMakeLists.txt">

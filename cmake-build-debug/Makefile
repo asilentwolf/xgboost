@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named libxgboost
+
+# Build rule for target.
+libxgboost: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libxgboost
+.PHONY : libxgboost
+
+# fast build rule for target.
+libxgboost/fast:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/build
+.PHONY : libxgboost/fast
+
+#=============================================================================
 # Target rules for targets named xgboost
 
 # Build rule for target.
@@ -123,653 +136,978 @@ xgboost/fast:
 	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/build
 .PHONY : xgboost/fast
 
-R-package/src/xgboost_R.o: R-package/src/xgboost_R.cpp.o
+#=============================================================================
+# Target rules for targets named rabit
 
-.PHONY : R-package/src/xgboost_R.o
+# Build rule for target.
+rabit: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rabit
+.PHONY : rabit
 
-# target to build an object file
-R-package/src/xgboost_R.cpp.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.o
-.PHONY : R-package/src/xgboost_R.cpp.o
+# fast build rule for target.
+rabit/fast:
+	$(MAKE) -f CMakeFiles/rabit.dir/build.make CMakeFiles/rabit.dir/build
+.PHONY : rabit/fast
 
-R-package/src/xgboost_R.i: R-package/src/xgboost_R.cpp.i
+src/c_api/c_api.o: src/c_api/c_api.cc.o
 
-.PHONY : R-package/src/xgboost_R.i
-
-# target to preprocess a source file
-R-package/src/xgboost_R.cpp.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.i
-.PHONY : R-package/src/xgboost_R.cpp.i
-
-R-package/src/xgboost_R.s: R-package/src/xgboost_R.cpp.s
-
-.PHONY : R-package/src/xgboost_R.s
-
-# target to generate assembly for a file
-R-package/src/xgboost_R.cpp.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.s
-.PHONY : R-package/src/xgboost_R.cpp.s
-
-R-package/src/xgboost_assert.o: R-package/src/xgboost_assert.c.o
-
-.PHONY : R-package/src/xgboost_assert.o
+.PHONY : src/c_api/c_api.o
 
 # target to build an object file
-R-package/src/xgboost_assert.c.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.o
-.PHONY : R-package/src/xgboost_assert.c.o
+src/c_api/c_api.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/c_api/c_api.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/c_api/c_api.cc.o
+.PHONY : src/c_api/c_api.cc.o
 
-R-package/src/xgboost_assert.i: R-package/src/xgboost_assert.c.i
+src/c_api/c_api.i: src/c_api/c_api.cc.i
 
-.PHONY : R-package/src/xgboost_assert.i
+.PHONY : src/c_api/c_api.i
 
 # target to preprocess a source file
-R-package/src/xgboost_assert.c.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.i
-.PHONY : R-package/src/xgboost_assert.c.i
+src/c_api/c_api.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/c_api/c_api.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/c_api/c_api.cc.i
+.PHONY : src/c_api/c_api.cc.i
 
-R-package/src/xgboost_assert.s: R-package/src/xgboost_assert.c.s
+src/c_api/c_api.s: src/c_api/c_api.cc.s
 
-.PHONY : R-package/src/xgboost_assert.s
+.PHONY : src/c_api/c_api.s
 
 # target to generate assembly for a file
-R-package/src/xgboost_assert.c.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.s
-.PHONY : R-package/src/xgboost_assert.c.s
+src/c_api/c_api.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/c_api/c_api.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/c_api/c_api.cc.s
+.PHONY : src/c_api/c_api.cc.s
 
-java/xgboost4j_wrapper.o: java/xgboost4j_wrapper.cpp.o
+src/c_api/c_api_error.o: src/c_api/c_api_error.cc.o
 
-.PHONY : java/xgboost4j_wrapper.o
+.PHONY : src/c_api/c_api_error.o
 
 # target to build an object file
-java/xgboost4j_wrapper.cpp.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.o
-.PHONY : java/xgboost4j_wrapper.cpp.o
+src/c_api/c_api_error.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/c_api/c_api_error.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.o
+.PHONY : src/c_api/c_api_error.cc.o
 
-java/xgboost4j_wrapper.i: java/xgboost4j_wrapper.cpp.i
+src/c_api/c_api_error.i: src/c_api/c_api_error.cc.i
 
-.PHONY : java/xgboost4j_wrapper.i
+.PHONY : src/c_api/c_api_error.i
 
 # target to preprocess a source file
-java/xgboost4j_wrapper.cpp.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.i
-.PHONY : java/xgboost4j_wrapper.cpp.i
+src/c_api/c_api_error.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/c_api/c_api_error.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.i
+.PHONY : src/c_api/c_api_error.cc.i
 
-java/xgboost4j_wrapper.s: java/xgboost4j_wrapper.cpp.s
+src/c_api/c_api_error.s: src/c_api/c_api_error.cc.s
 
-.PHONY : java/xgboost4j_wrapper.s
+.PHONY : src/c_api/c_api_error.s
 
 # target to generate assembly for a file
-java/xgboost4j_wrapper.cpp.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.s
-.PHONY : java/xgboost4j_wrapper.cpp.s
+src/c_api/c_api_error.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/c_api/c_api_error.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.s
+.PHONY : src/c_api/c_api_error.cc.s
 
-src/gbm/gbm.o: src/gbm/gbm.cpp.o
+src/cli_main.o: src/cli_main.cc.o
+
+.PHONY : src/cli_main.o
+
+# target to build an object file
+src/cli_main.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/cli_main.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/cli_main.cc.o
+.PHONY : src/cli_main.cc.o
+
+src/cli_main.i: src/cli_main.cc.i
+
+.PHONY : src/cli_main.i
+
+# target to preprocess a source file
+src/cli_main.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/cli_main.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/cli_main.cc.i
+.PHONY : src/cli_main.cc.i
+
+src/cli_main.s: src/cli_main.cc.s
+
+.PHONY : src/cli_main.s
+
+# target to generate assembly for a file
+src/cli_main.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/cli_main.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/cli_main.cc.s
+.PHONY : src/cli_main.cc.s
+
+src/common/common.o: src/common/common.cc.o
+
+.PHONY : src/common/common.o
+
+# target to build an object file
+src/common/common.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/common/common.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/common/common.cc.o
+.PHONY : src/common/common.cc.o
+
+src/common/common.i: src/common/common.cc.i
+
+.PHONY : src/common/common.i
+
+# target to preprocess a source file
+src/common/common.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/common/common.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/common/common.cc.i
+.PHONY : src/common/common.cc.i
+
+src/common/common.s: src/common/common.cc.s
+
+.PHONY : src/common/common.s
+
+# target to generate assembly for a file
+src/common/common.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/common/common.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/common/common.cc.s
+.PHONY : src/common/common.cc.s
+
+src/data/data.o: src/data/data.cc.o
+
+.PHONY : src/data/data.o
+
+# target to build an object file
+src/data/data.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/data.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/data.cc.o
+.PHONY : src/data/data.cc.o
+
+src/data/data.i: src/data/data.cc.i
+
+.PHONY : src/data/data.i
+
+# target to preprocess a source file
+src/data/data.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/data.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/data.cc.i
+.PHONY : src/data/data.cc.i
+
+src/data/data.s: src/data/data.cc.s
+
+.PHONY : src/data/data.s
+
+# target to generate assembly for a file
+src/data/data.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/data.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/data.cc.s
+.PHONY : src/data/data.cc.s
+
+src/data/simple_csr_source.o: src/data/simple_csr_source.cc.o
+
+.PHONY : src/data/simple_csr_source.o
+
+# target to build an object file
+src/data/simple_csr_source.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/simple_csr_source.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.o
+.PHONY : src/data/simple_csr_source.cc.o
+
+src/data/simple_csr_source.i: src/data/simple_csr_source.cc.i
+
+.PHONY : src/data/simple_csr_source.i
+
+# target to preprocess a source file
+src/data/simple_csr_source.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/simple_csr_source.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.i
+.PHONY : src/data/simple_csr_source.cc.i
+
+src/data/simple_csr_source.s: src/data/simple_csr_source.cc.s
+
+.PHONY : src/data/simple_csr_source.s
+
+# target to generate assembly for a file
+src/data/simple_csr_source.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/simple_csr_source.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.s
+.PHONY : src/data/simple_csr_source.cc.s
+
+src/data/simple_dmatrix.o: src/data/simple_dmatrix.cc.o
+
+.PHONY : src/data/simple_dmatrix.o
+
+# target to build an object file
+src/data/simple_dmatrix.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/simple_dmatrix.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.o
+.PHONY : src/data/simple_dmatrix.cc.o
+
+src/data/simple_dmatrix.i: src/data/simple_dmatrix.cc.i
+
+.PHONY : src/data/simple_dmatrix.i
+
+# target to preprocess a source file
+src/data/simple_dmatrix.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/simple_dmatrix.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.i
+.PHONY : src/data/simple_dmatrix.cc.i
+
+src/data/simple_dmatrix.s: src/data/simple_dmatrix.cc.s
+
+.PHONY : src/data/simple_dmatrix.s
+
+# target to generate assembly for a file
+src/data/simple_dmatrix.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/simple_dmatrix.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.s
+.PHONY : src/data/simple_dmatrix.cc.s
+
+src/data/sparse_page_dmatrix.o: src/data/sparse_page_dmatrix.cc.o
+
+.PHONY : src/data/sparse_page_dmatrix.o
+
+# target to build an object file
+src/data/sparse_page_dmatrix.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/sparse_page_dmatrix.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.o
+.PHONY : src/data/sparse_page_dmatrix.cc.o
+
+src/data/sparse_page_dmatrix.i: src/data/sparse_page_dmatrix.cc.i
+
+.PHONY : src/data/sparse_page_dmatrix.i
+
+# target to preprocess a source file
+src/data/sparse_page_dmatrix.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/sparse_page_dmatrix.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.i
+.PHONY : src/data/sparse_page_dmatrix.cc.i
+
+src/data/sparse_page_dmatrix.s: src/data/sparse_page_dmatrix.cc.s
+
+.PHONY : src/data/sparse_page_dmatrix.s
+
+# target to generate assembly for a file
+src/data/sparse_page_dmatrix.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/sparse_page_dmatrix.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.s
+.PHONY : src/data/sparse_page_dmatrix.cc.s
+
+src/data/sparse_page_raw_format.o: src/data/sparse_page_raw_format.cc.o
+
+.PHONY : src/data/sparse_page_raw_format.o
+
+# target to build an object file
+src/data/sparse_page_raw_format.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/sparse_page_raw_format.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.o
+.PHONY : src/data/sparse_page_raw_format.cc.o
+
+src/data/sparse_page_raw_format.i: src/data/sparse_page_raw_format.cc.i
+
+.PHONY : src/data/sparse_page_raw_format.i
+
+# target to preprocess a source file
+src/data/sparse_page_raw_format.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/sparse_page_raw_format.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.i
+.PHONY : src/data/sparse_page_raw_format.cc.i
+
+src/data/sparse_page_raw_format.s: src/data/sparse_page_raw_format.cc.s
+
+.PHONY : src/data/sparse_page_raw_format.s
+
+# target to generate assembly for a file
+src/data/sparse_page_raw_format.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/sparse_page_raw_format.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.s
+.PHONY : src/data/sparse_page_raw_format.cc.s
+
+src/data/sparse_page_source.o: src/data/sparse_page_source.cc.o
+
+.PHONY : src/data/sparse_page_source.o
+
+# target to build an object file
+src/data/sparse_page_source.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/sparse_page_source.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.o
+.PHONY : src/data/sparse_page_source.cc.o
+
+src/data/sparse_page_source.i: src/data/sparse_page_source.cc.i
+
+.PHONY : src/data/sparse_page_source.i
+
+# target to preprocess a source file
+src/data/sparse_page_source.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/sparse_page_source.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.i
+.PHONY : src/data/sparse_page_source.cc.i
+
+src/data/sparse_page_source.s: src/data/sparse_page_source.cc.s
+
+.PHONY : src/data/sparse_page_source.s
+
+# target to generate assembly for a file
+src/data/sparse_page_source.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/sparse_page_source.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.s
+.PHONY : src/data/sparse_page_source.cc.s
+
+src/data/sparse_page_writer.o: src/data/sparse_page_writer.cc.o
+
+.PHONY : src/data/sparse_page_writer.o
+
+# target to build an object file
+src/data/sparse_page_writer.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/sparse_page_writer.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.o
+.PHONY : src/data/sparse_page_writer.cc.o
+
+src/data/sparse_page_writer.i: src/data/sparse_page_writer.cc.i
+
+.PHONY : src/data/sparse_page_writer.i
+
+# target to preprocess a source file
+src/data/sparse_page_writer.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/sparse_page_writer.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.i
+.PHONY : src/data/sparse_page_writer.cc.i
+
+src/data/sparse_page_writer.s: src/data/sparse_page_writer.cc.s
+
+.PHONY : src/data/sparse_page_writer.s
+
+# target to generate assembly for a file
+src/data/sparse_page_writer.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/data/sparse_page_writer.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.s
+.PHONY : src/data/sparse_page_writer.cc.s
+
+src/gbm/gblinear.o: src/gbm/gblinear.cc.o
+
+.PHONY : src/gbm/gblinear.o
+
+# target to build an object file
+src/gbm/gblinear.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/gbm/gblinear.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.o
+.PHONY : src/gbm/gblinear.cc.o
+
+src/gbm/gblinear.i: src/gbm/gblinear.cc.i
+
+.PHONY : src/gbm/gblinear.i
+
+# target to preprocess a source file
+src/gbm/gblinear.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/gbm/gblinear.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.i
+.PHONY : src/gbm/gblinear.cc.i
+
+src/gbm/gblinear.s: src/gbm/gblinear.cc.s
+
+.PHONY : src/gbm/gblinear.s
+
+# target to generate assembly for a file
+src/gbm/gblinear.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/gbm/gblinear.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.s
+.PHONY : src/gbm/gblinear.cc.s
+
+src/gbm/gbm.o: src/gbm/gbm.cc.o
 
 .PHONY : src/gbm/gbm.o
 
 # target to build an object file
-src/gbm/gbm.cpp.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.o
-.PHONY : src/gbm/gbm.cpp.o
+src/gbm/gbm.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/gbm/gbm.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/gbm/gbm.cc.o
+.PHONY : src/gbm/gbm.cc.o
 
-src/gbm/gbm.i: src/gbm/gbm.cpp.i
+src/gbm/gbm.i: src/gbm/gbm.cc.i
 
 .PHONY : src/gbm/gbm.i
 
 # target to preprocess a source file
-src/gbm/gbm.cpp.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.i
-.PHONY : src/gbm/gbm.cpp.i
+src/gbm/gbm.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/gbm/gbm.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/gbm/gbm.cc.i
+.PHONY : src/gbm/gbm.cc.i
 
-src/gbm/gbm.s: src/gbm/gbm.cpp.s
+src/gbm/gbm.s: src/gbm/gbm.cc.s
 
 .PHONY : src/gbm/gbm.s
 
 # target to generate assembly for a file
-src/gbm/gbm.cpp.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.s
-.PHONY : src/gbm/gbm.cpp.s
+src/gbm/gbm.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/gbm/gbm.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/gbm/gbm.cc.s
+.PHONY : src/gbm/gbm.cc.s
 
-src/io/dmlc_simple.o: src/io/dmlc_simple.cpp.o
+src/gbm/gbtree.o: src/gbm/gbtree.cc.o
 
-.PHONY : src/io/dmlc_simple.o
-
-# target to build an object file
-src/io/dmlc_simple.cpp.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.o
-.PHONY : src/io/dmlc_simple.cpp.o
-
-src/io/dmlc_simple.i: src/io/dmlc_simple.cpp.i
-
-.PHONY : src/io/dmlc_simple.i
-
-# target to preprocess a source file
-src/io/dmlc_simple.cpp.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.i
-.PHONY : src/io/dmlc_simple.cpp.i
-
-src/io/dmlc_simple.s: src/io/dmlc_simple.cpp.s
-
-.PHONY : src/io/dmlc_simple.s
-
-# target to generate assembly for a file
-src/io/dmlc_simple.cpp.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.s
-.PHONY : src/io/dmlc_simple.cpp.s
-
-src/io/io.o: src/io/io.cpp.o
-
-.PHONY : src/io/io.o
+.PHONY : src/gbm/gbtree.o
 
 # target to build an object file
-src/io/io.cpp.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/io/io.cpp.o
-.PHONY : src/io/io.cpp.o
+src/gbm/gbtree.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/gbm/gbtree.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.o
+.PHONY : src/gbm/gbtree.cc.o
 
-src/io/io.i: src/io/io.cpp.i
+src/gbm/gbtree.i: src/gbm/gbtree.cc.i
 
-.PHONY : src/io/io.i
+.PHONY : src/gbm/gbtree.i
 
 # target to preprocess a source file
-src/io/io.cpp.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/io/io.cpp.i
-.PHONY : src/io/io.cpp.i
+src/gbm/gbtree.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/gbm/gbtree.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.i
+.PHONY : src/gbm/gbtree.cc.i
 
-src/io/io.s: src/io/io.cpp.s
+src/gbm/gbtree.s: src/gbm/gbtree.cc.s
 
-.PHONY : src/io/io.s
+.PHONY : src/gbm/gbtree.s
 
 # target to generate assembly for a file
-src/io/io.cpp.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/io/io.cpp.s
-.PHONY : src/io/io.cpp.s
+src/gbm/gbtree.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/gbm/gbtree.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.s
+.PHONY : src/gbm/gbtree.cc.s
 
-src/tree/updater.o: src/tree/updater.cpp.o
+src/learner.o: src/learner.cc.o
 
-.PHONY : src/tree/updater.o
+.PHONY : src/learner.o
 
 # target to build an object file
-src/tree/updater.cpp.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater.cpp.o
-.PHONY : src/tree/updater.cpp.o
+src/learner.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/learner.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/learner.cc.o
+.PHONY : src/learner.cc.o
 
-src/tree/updater.i: src/tree/updater.cpp.i
+src/learner.i: src/learner.cc.i
 
-.PHONY : src/tree/updater.i
+.PHONY : src/learner.i
 
 # target to preprocess a source file
-src/tree/updater.cpp.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater.cpp.i
-.PHONY : src/tree/updater.cpp.i
+src/learner.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/learner.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/learner.cc.i
+.PHONY : src/learner.cc.i
 
-src/tree/updater.s: src/tree/updater.cpp.s
+src/learner.s: src/learner.cc.s
 
-.PHONY : src/tree/updater.s
+.PHONY : src/learner.s
 
 # target to generate assembly for a file
-src/tree/updater.cpp.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater.cpp.s
-.PHONY : src/tree/updater.cpp.s
+src/learner.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/learner.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/learner.cc.s
+.PHONY : src/learner.cc.s
 
-src/xgboost_main.o: src/xgboost_main.cpp.o
+src/logging.o: src/logging.cc.o
 
-.PHONY : src/xgboost_main.o
+.PHONY : src/logging.o
 
 # target to build an object file
-src/xgboost_main.cpp.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/xgboost_main.cpp.o
-.PHONY : src/xgboost_main.cpp.o
+src/logging.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/logging.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/logging.cc.o
+.PHONY : src/logging.cc.o
 
-src/xgboost_main.i: src/xgboost_main.cpp.i
+src/logging.i: src/logging.cc.i
 
-.PHONY : src/xgboost_main.i
+.PHONY : src/logging.i
 
 # target to preprocess a source file
-src/xgboost_main.cpp.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/xgboost_main.cpp.i
-.PHONY : src/xgboost_main.cpp.i
+src/logging.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/logging.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/logging.cc.i
+.PHONY : src/logging.cc.i
 
-src/xgboost_main.s: src/xgboost_main.cpp.s
+src/logging.s: src/logging.cc.s
 
-.PHONY : src/xgboost_main.s
+.PHONY : src/logging.s
 
 # target to generate assembly for a file
-src/xgboost_main.cpp.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/xgboost_main.cpp.s
-.PHONY : src/xgboost_main.cpp.s
+src/logging.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/logging.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/logging.cc.s
+.PHONY : src/logging.cc.s
 
-subtree/rabit/guide/basic.o: subtree/rabit/guide/basic.cc.o
+src/metric/elementwise_metric.o: src/metric/elementwise_metric.cc.o
 
-.PHONY : subtree/rabit/guide/basic.o
+.PHONY : src/metric/elementwise_metric.o
 
 # target to build an object file
-subtree/rabit/guide/basic.cc.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.o
-.PHONY : subtree/rabit/guide/basic.cc.o
+src/metric/elementwise_metric.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/metric/elementwise_metric.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.o
+.PHONY : src/metric/elementwise_metric.cc.o
 
-subtree/rabit/guide/basic.i: subtree/rabit/guide/basic.cc.i
+src/metric/elementwise_metric.i: src/metric/elementwise_metric.cc.i
 
-.PHONY : subtree/rabit/guide/basic.i
+.PHONY : src/metric/elementwise_metric.i
 
 # target to preprocess a source file
-subtree/rabit/guide/basic.cc.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.i
-.PHONY : subtree/rabit/guide/basic.cc.i
+src/metric/elementwise_metric.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/metric/elementwise_metric.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.i
+.PHONY : src/metric/elementwise_metric.cc.i
 
-subtree/rabit/guide/basic.s: subtree/rabit/guide/basic.cc.s
+src/metric/elementwise_metric.s: src/metric/elementwise_metric.cc.s
 
-.PHONY : subtree/rabit/guide/basic.s
+.PHONY : src/metric/elementwise_metric.s
 
 # target to generate assembly for a file
-subtree/rabit/guide/basic.cc.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.s
-.PHONY : subtree/rabit/guide/basic.cc.s
+src/metric/elementwise_metric.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/metric/elementwise_metric.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.s
+.PHONY : src/metric/elementwise_metric.cc.s
 
-subtree/rabit/guide/broadcast.o: subtree/rabit/guide/broadcast.cc.o
+src/metric/metric.o: src/metric/metric.cc.o
 
-.PHONY : subtree/rabit/guide/broadcast.o
+.PHONY : src/metric/metric.o
 
 # target to build an object file
-subtree/rabit/guide/broadcast.cc.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.o
-.PHONY : subtree/rabit/guide/broadcast.cc.o
+src/metric/metric.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/metric/metric.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/metric/metric.cc.o
+.PHONY : src/metric/metric.cc.o
 
-subtree/rabit/guide/broadcast.i: subtree/rabit/guide/broadcast.cc.i
+src/metric/metric.i: src/metric/metric.cc.i
 
-.PHONY : subtree/rabit/guide/broadcast.i
+.PHONY : src/metric/metric.i
 
 # target to preprocess a source file
-subtree/rabit/guide/broadcast.cc.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.i
-.PHONY : subtree/rabit/guide/broadcast.cc.i
+src/metric/metric.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/metric/metric.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/metric/metric.cc.i
+.PHONY : src/metric/metric.cc.i
 
-subtree/rabit/guide/broadcast.s: subtree/rabit/guide/broadcast.cc.s
+src/metric/metric.s: src/metric/metric.cc.s
 
-.PHONY : subtree/rabit/guide/broadcast.s
+.PHONY : src/metric/metric.s
 
 # target to generate assembly for a file
-subtree/rabit/guide/broadcast.cc.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.s
-.PHONY : subtree/rabit/guide/broadcast.cc.s
+src/metric/metric.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/metric/metric.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/metric/metric.cc.s
+.PHONY : src/metric/metric.cc.s
 
-subtree/rabit/guide/lazy_allreduce.o: subtree/rabit/guide/lazy_allreduce.cc.o
+src/metric/multiclass_metric.o: src/metric/multiclass_metric.cc.o
 
-.PHONY : subtree/rabit/guide/lazy_allreduce.o
+.PHONY : src/metric/multiclass_metric.o
 
 # target to build an object file
-subtree/rabit/guide/lazy_allreduce.cc.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.o
-.PHONY : subtree/rabit/guide/lazy_allreduce.cc.o
+src/metric/multiclass_metric.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/metric/multiclass_metric.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.o
+.PHONY : src/metric/multiclass_metric.cc.o
 
-subtree/rabit/guide/lazy_allreduce.i: subtree/rabit/guide/lazy_allreduce.cc.i
+src/metric/multiclass_metric.i: src/metric/multiclass_metric.cc.i
 
-.PHONY : subtree/rabit/guide/lazy_allreduce.i
+.PHONY : src/metric/multiclass_metric.i
 
 # target to preprocess a source file
-subtree/rabit/guide/lazy_allreduce.cc.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.i
-.PHONY : subtree/rabit/guide/lazy_allreduce.cc.i
+src/metric/multiclass_metric.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/metric/multiclass_metric.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.i
+.PHONY : src/metric/multiclass_metric.cc.i
 
-subtree/rabit/guide/lazy_allreduce.s: subtree/rabit/guide/lazy_allreduce.cc.s
+src/metric/multiclass_metric.s: src/metric/multiclass_metric.cc.s
 
-.PHONY : subtree/rabit/guide/lazy_allreduce.s
+.PHONY : src/metric/multiclass_metric.s
 
 # target to generate assembly for a file
-subtree/rabit/guide/lazy_allreduce.cc.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.s
-.PHONY : subtree/rabit/guide/lazy_allreduce.cc.s
+src/metric/multiclass_metric.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/metric/multiclass_metric.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.s
+.PHONY : src/metric/multiclass_metric.cc.s
 
-subtree/rabit/src/allreduce_base.o: subtree/rabit/src/allreduce_base.cc.o
+src/metric/rank_metric.o: src/metric/rank_metric.cc.o
 
-.PHONY : subtree/rabit/src/allreduce_base.o
+.PHONY : src/metric/rank_metric.o
 
 # target to build an object file
-subtree/rabit/src/allreduce_base.cc.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.o
-.PHONY : subtree/rabit/src/allreduce_base.cc.o
+src/metric/rank_metric.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/metric/rank_metric.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.o
+.PHONY : src/metric/rank_metric.cc.o
 
-subtree/rabit/src/allreduce_base.i: subtree/rabit/src/allreduce_base.cc.i
+src/metric/rank_metric.i: src/metric/rank_metric.cc.i
 
-.PHONY : subtree/rabit/src/allreduce_base.i
+.PHONY : src/metric/rank_metric.i
 
 # target to preprocess a source file
-subtree/rabit/src/allreduce_base.cc.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.i
-.PHONY : subtree/rabit/src/allreduce_base.cc.i
+src/metric/rank_metric.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/metric/rank_metric.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.i
+.PHONY : src/metric/rank_metric.cc.i
 
-subtree/rabit/src/allreduce_base.s: subtree/rabit/src/allreduce_base.cc.s
+src/metric/rank_metric.s: src/metric/rank_metric.cc.s
 
-.PHONY : subtree/rabit/src/allreduce_base.s
+.PHONY : src/metric/rank_metric.s
 
 # target to generate assembly for a file
-subtree/rabit/src/allreduce_base.cc.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.s
-.PHONY : subtree/rabit/src/allreduce_base.cc.s
+src/metric/rank_metric.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/metric/rank_metric.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.s
+.PHONY : src/metric/rank_metric.cc.s
 
-subtree/rabit/src/allreduce_robust.o: subtree/rabit/src/allreduce_robust.cc.o
+src/objective/multiclass_obj.o: src/objective/multiclass_obj.cc.o
 
-.PHONY : subtree/rabit/src/allreduce_robust.o
+.PHONY : src/objective/multiclass_obj.o
 
 # target to build an object file
-subtree/rabit/src/allreduce_robust.cc.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.o
-.PHONY : subtree/rabit/src/allreduce_robust.cc.o
+src/objective/multiclass_obj.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/objective/multiclass_obj.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.o
+.PHONY : src/objective/multiclass_obj.cc.o
 
-subtree/rabit/src/allreduce_robust.i: subtree/rabit/src/allreduce_robust.cc.i
+src/objective/multiclass_obj.i: src/objective/multiclass_obj.cc.i
 
-.PHONY : subtree/rabit/src/allreduce_robust.i
+.PHONY : src/objective/multiclass_obj.i
 
 # target to preprocess a source file
-subtree/rabit/src/allreduce_robust.cc.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.i
-.PHONY : subtree/rabit/src/allreduce_robust.cc.i
+src/objective/multiclass_obj.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/objective/multiclass_obj.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.i
+.PHONY : src/objective/multiclass_obj.cc.i
 
-subtree/rabit/src/allreduce_robust.s: subtree/rabit/src/allreduce_robust.cc.s
+src/objective/multiclass_obj.s: src/objective/multiclass_obj.cc.s
 
-.PHONY : subtree/rabit/src/allreduce_robust.s
+.PHONY : src/objective/multiclass_obj.s
 
 # target to generate assembly for a file
-subtree/rabit/src/allreduce_robust.cc.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.s
-.PHONY : subtree/rabit/src/allreduce_robust.cc.s
+src/objective/multiclass_obj.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/objective/multiclass_obj.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.s
+.PHONY : src/objective/multiclass_obj.cc.s
 
-subtree/rabit/src/engine.o: subtree/rabit/src/engine.cc.o
+src/objective/objective.o: src/objective/objective.cc.o
 
-.PHONY : subtree/rabit/src/engine.o
+.PHONY : src/objective/objective.o
 
 # target to build an object file
-subtree/rabit/src/engine.cc.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.o
-.PHONY : subtree/rabit/src/engine.cc.o
+src/objective/objective.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/objective/objective.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/objective/objective.cc.o
+.PHONY : src/objective/objective.cc.o
 
-subtree/rabit/src/engine.i: subtree/rabit/src/engine.cc.i
+src/objective/objective.i: src/objective/objective.cc.i
 
-.PHONY : subtree/rabit/src/engine.i
+.PHONY : src/objective/objective.i
 
 # target to preprocess a source file
-subtree/rabit/src/engine.cc.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.i
-.PHONY : subtree/rabit/src/engine.cc.i
+src/objective/objective.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/objective/objective.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/objective/objective.cc.i
+.PHONY : src/objective/objective.cc.i
 
-subtree/rabit/src/engine.s: subtree/rabit/src/engine.cc.s
+src/objective/objective.s: src/objective/objective.cc.s
 
-.PHONY : subtree/rabit/src/engine.s
+.PHONY : src/objective/objective.s
 
 # target to generate assembly for a file
-subtree/rabit/src/engine.cc.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.s
-.PHONY : subtree/rabit/src/engine.cc.s
+src/objective/objective.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/objective/objective.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/objective/objective.cc.s
+.PHONY : src/objective/objective.cc.s
 
-subtree/rabit/src/engine_base.o: subtree/rabit/src/engine_base.cc.o
+src/objective/rank_obj.o: src/objective/rank_obj.cc.o
 
-.PHONY : subtree/rabit/src/engine_base.o
+.PHONY : src/objective/rank_obj.o
 
 # target to build an object file
-subtree/rabit/src/engine_base.cc.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.o
-.PHONY : subtree/rabit/src/engine_base.cc.o
+src/objective/rank_obj.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/objective/rank_obj.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.o
+.PHONY : src/objective/rank_obj.cc.o
 
-subtree/rabit/src/engine_base.i: subtree/rabit/src/engine_base.cc.i
+src/objective/rank_obj.i: src/objective/rank_obj.cc.i
 
-.PHONY : subtree/rabit/src/engine_base.i
+.PHONY : src/objective/rank_obj.i
 
 # target to preprocess a source file
-subtree/rabit/src/engine_base.cc.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.i
-.PHONY : subtree/rabit/src/engine_base.cc.i
+src/objective/rank_obj.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/objective/rank_obj.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.i
+.PHONY : src/objective/rank_obj.cc.i
 
-subtree/rabit/src/engine_base.s: subtree/rabit/src/engine_base.cc.s
+src/objective/rank_obj.s: src/objective/rank_obj.cc.s
 
-.PHONY : subtree/rabit/src/engine_base.s
+.PHONY : src/objective/rank_obj.s
 
 # target to generate assembly for a file
-subtree/rabit/src/engine_base.cc.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.s
-.PHONY : subtree/rabit/src/engine_base.cc.s
+src/objective/rank_obj.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/objective/rank_obj.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.s
+.PHONY : src/objective/rank_obj.cc.s
 
-subtree/rabit/src/engine_empty.o: subtree/rabit/src/engine_empty.cc.o
+src/objective/regression_obj.o: src/objective/regression_obj.cc.o
 
-.PHONY : subtree/rabit/src/engine_empty.o
+.PHONY : src/objective/regression_obj.o
 
 # target to build an object file
-subtree/rabit/src/engine_empty.cc.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.o
-.PHONY : subtree/rabit/src/engine_empty.cc.o
+src/objective/regression_obj.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/objective/regression_obj.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.o
+.PHONY : src/objective/regression_obj.cc.o
 
-subtree/rabit/src/engine_empty.i: subtree/rabit/src/engine_empty.cc.i
+src/objective/regression_obj.i: src/objective/regression_obj.cc.i
 
-.PHONY : subtree/rabit/src/engine_empty.i
+.PHONY : src/objective/regression_obj.i
 
 # target to preprocess a source file
-subtree/rabit/src/engine_empty.cc.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.i
-.PHONY : subtree/rabit/src/engine_empty.cc.i
+src/objective/regression_obj.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/objective/regression_obj.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.i
+.PHONY : src/objective/regression_obj.cc.i
 
-subtree/rabit/src/engine_empty.s: subtree/rabit/src/engine_empty.cc.s
+src/objective/regression_obj.s: src/objective/regression_obj.cc.s
 
-.PHONY : subtree/rabit/src/engine_empty.s
+.PHONY : src/objective/regression_obj.s
 
 # target to generate assembly for a file
-subtree/rabit/src/engine_empty.cc.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.s
-.PHONY : subtree/rabit/src/engine_empty.cc.s
+src/objective/regression_obj.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/objective/regression_obj.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.s
+.PHONY : src/objective/regression_obj.cc.s
 
-subtree/rabit/src/engine_mock.o: subtree/rabit/src/engine_mock.cc.o
+src/tree/tree_model.o: src/tree/tree_model.cc.o
 
-.PHONY : subtree/rabit/src/engine_mock.o
+.PHONY : src/tree/tree_model.o
 
 # target to build an object file
-subtree/rabit/src/engine_mock.cc.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.o
-.PHONY : subtree/rabit/src/engine_mock.cc.o
+src/tree/tree_model.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/tree_model.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/tree_model.cc.o
+.PHONY : src/tree/tree_model.cc.o
 
-subtree/rabit/src/engine_mock.i: subtree/rabit/src/engine_mock.cc.i
+src/tree/tree_model.i: src/tree/tree_model.cc.i
 
-.PHONY : subtree/rabit/src/engine_mock.i
+.PHONY : src/tree/tree_model.i
 
 # target to preprocess a source file
-subtree/rabit/src/engine_mock.cc.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.i
-.PHONY : subtree/rabit/src/engine_mock.cc.i
+src/tree/tree_model.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/tree_model.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/tree_model.cc.i
+.PHONY : src/tree/tree_model.cc.i
 
-subtree/rabit/src/engine_mock.s: subtree/rabit/src/engine_mock.cc.s
+src/tree/tree_model.s: src/tree/tree_model.cc.s
 
-.PHONY : subtree/rabit/src/engine_mock.s
+.PHONY : src/tree/tree_model.s
 
 # target to generate assembly for a file
-subtree/rabit/src/engine_mock.cc.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.s
-.PHONY : subtree/rabit/src/engine_mock.cc.s
+src/tree/tree_model.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/tree_model.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/tree_model.cc.s
+.PHONY : src/tree/tree_model.cc.s
 
-subtree/rabit/src/engine_mpi.o: subtree/rabit/src/engine_mpi.cc.o
+src/tree/tree_updater.o: src/tree/tree_updater.cc.o
 
-.PHONY : subtree/rabit/src/engine_mpi.o
+.PHONY : src/tree/tree_updater.o
 
 # target to build an object file
-subtree/rabit/src/engine_mpi.cc.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.o
-.PHONY : subtree/rabit/src/engine_mpi.cc.o
+src/tree/tree_updater.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/tree_updater.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.o
+.PHONY : src/tree/tree_updater.cc.o
 
-subtree/rabit/src/engine_mpi.i: subtree/rabit/src/engine_mpi.cc.i
+src/tree/tree_updater.i: src/tree/tree_updater.cc.i
 
-.PHONY : subtree/rabit/src/engine_mpi.i
+.PHONY : src/tree/tree_updater.i
 
 # target to preprocess a source file
-subtree/rabit/src/engine_mpi.cc.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.i
-.PHONY : subtree/rabit/src/engine_mpi.cc.i
+src/tree/tree_updater.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/tree_updater.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.i
+.PHONY : src/tree/tree_updater.cc.i
 
-subtree/rabit/src/engine_mpi.s: subtree/rabit/src/engine_mpi.cc.s
+src/tree/tree_updater.s: src/tree/tree_updater.cc.s
 
-.PHONY : subtree/rabit/src/engine_mpi.s
+.PHONY : src/tree/tree_updater.s
 
 # target to generate assembly for a file
-subtree/rabit/src/engine_mpi.cc.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.s
-.PHONY : subtree/rabit/src/engine_mpi.cc.s
+src/tree/tree_updater.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/tree_updater.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.s
+.PHONY : src/tree/tree_updater.cc.s
 
-subtree/rabit/test/lazy_recover.o: subtree/rabit/test/lazy_recover.cc.o
+src/tree/updater_colmaker.o: src/tree/updater_colmaker.cc.o
 
-.PHONY : subtree/rabit/test/lazy_recover.o
+.PHONY : src/tree/updater_colmaker.o
 
 # target to build an object file
-subtree/rabit/test/lazy_recover.cc.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.o
-.PHONY : subtree/rabit/test/lazy_recover.cc.o
+src/tree/updater_colmaker.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/updater_colmaker.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.o
+.PHONY : src/tree/updater_colmaker.cc.o
 
-subtree/rabit/test/lazy_recover.i: subtree/rabit/test/lazy_recover.cc.i
+src/tree/updater_colmaker.i: src/tree/updater_colmaker.cc.i
 
-.PHONY : subtree/rabit/test/lazy_recover.i
+.PHONY : src/tree/updater_colmaker.i
 
 # target to preprocess a source file
-subtree/rabit/test/lazy_recover.cc.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.i
-.PHONY : subtree/rabit/test/lazy_recover.cc.i
+src/tree/updater_colmaker.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/updater_colmaker.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.i
+.PHONY : src/tree/updater_colmaker.cc.i
 
-subtree/rabit/test/lazy_recover.s: subtree/rabit/test/lazy_recover.cc.s
+src/tree/updater_colmaker.s: src/tree/updater_colmaker.cc.s
 
-.PHONY : subtree/rabit/test/lazy_recover.s
+.PHONY : src/tree/updater_colmaker.s
 
 # target to generate assembly for a file
-subtree/rabit/test/lazy_recover.cc.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.s
-.PHONY : subtree/rabit/test/lazy_recover.cc.s
+src/tree/updater_colmaker.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/updater_colmaker.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.s
+.PHONY : src/tree/updater_colmaker.cc.s
 
-subtree/rabit/test/local_recover.o: subtree/rabit/test/local_recover.cc.o
+src/tree/updater_histmaker.o: src/tree/updater_histmaker.cc.o
 
-.PHONY : subtree/rabit/test/local_recover.o
+.PHONY : src/tree/updater_histmaker.o
 
 # target to build an object file
-subtree/rabit/test/local_recover.cc.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.o
-.PHONY : subtree/rabit/test/local_recover.cc.o
+src/tree/updater_histmaker.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/updater_histmaker.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.o
+.PHONY : src/tree/updater_histmaker.cc.o
 
-subtree/rabit/test/local_recover.i: subtree/rabit/test/local_recover.cc.i
+src/tree/updater_histmaker.i: src/tree/updater_histmaker.cc.i
 
-.PHONY : subtree/rabit/test/local_recover.i
+.PHONY : src/tree/updater_histmaker.i
 
 # target to preprocess a source file
-subtree/rabit/test/local_recover.cc.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.i
-.PHONY : subtree/rabit/test/local_recover.cc.i
+src/tree/updater_histmaker.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/updater_histmaker.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.i
+.PHONY : src/tree/updater_histmaker.cc.i
 
-subtree/rabit/test/local_recover.s: subtree/rabit/test/local_recover.cc.s
+src/tree/updater_histmaker.s: src/tree/updater_histmaker.cc.s
 
-.PHONY : subtree/rabit/test/local_recover.s
+.PHONY : src/tree/updater_histmaker.s
 
 # target to generate assembly for a file
-subtree/rabit/test/local_recover.cc.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.s
-.PHONY : subtree/rabit/test/local_recover.cc.s
+src/tree/updater_histmaker.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/updater_histmaker.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.s
+.PHONY : src/tree/updater_histmaker.cc.s
 
-subtree/rabit/test/model_recover.o: subtree/rabit/test/model_recover.cc.o
+src/tree/updater_prune.o: src/tree/updater_prune.cc.o
 
-.PHONY : subtree/rabit/test/model_recover.o
+.PHONY : src/tree/updater_prune.o
 
 # target to build an object file
-subtree/rabit/test/model_recover.cc.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.o
-.PHONY : subtree/rabit/test/model_recover.cc.o
+src/tree/updater_prune.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/updater_prune.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.o
+.PHONY : src/tree/updater_prune.cc.o
 
-subtree/rabit/test/model_recover.i: subtree/rabit/test/model_recover.cc.i
+src/tree/updater_prune.i: src/tree/updater_prune.cc.i
 
-.PHONY : subtree/rabit/test/model_recover.i
+.PHONY : src/tree/updater_prune.i
 
 # target to preprocess a source file
-subtree/rabit/test/model_recover.cc.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.i
-.PHONY : subtree/rabit/test/model_recover.cc.i
+src/tree/updater_prune.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/updater_prune.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.i
+.PHONY : src/tree/updater_prune.cc.i
 
-subtree/rabit/test/model_recover.s: subtree/rabit/test/model_recover.cc.s
+src/tree/updater_prune.s: src/tree/updater_prune.cc.s
 
-.PHONY : subtree/rabit/test/model_recover.s
+.PHONY : src/tree/updater_prune.s
 
 # target to generate assembly for a file
-subtree/rabit/test/model_recover.cc.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.s
-.PHONY : subtree/rabit/test/model_recover.cc.s
+src/tree/updater_prune.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/updater_prune.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.s
+.PHONY : src/tree/updater_prune.cc.s
 
-subtree/rabit/test/speed_test.o: subtree/rabit/test/speed_test.cc.o
+src/tree/updater_refresh.o: src/tree/updater_refresh.cc.o
 
-.PHONY : subtree/rabit/test/speed_test.o
+.PHONY : src/tree/updater_refresh.o
 
 # target to build an object file
-subtree/rabit/test/speed_test.cc.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.o
-.PHONY : subtree/rabit/test/speed_test.cc.o
+src/tree/updater_refresh.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/updater_refresh.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.o
+.PHONY : src/tree/updater_refresh.cc.o
 
-subtree/rabit/test/speed_test.i: subtree/rabit/test/speed_test.cc.i
+src/tree/updater_refresh.i: src/tree/updater_refresh.cc.i
 
-.PHONY : subtree/rabit/test/speed_test.i
+.PHONY : src/tree/updater_refresh.i
 
 # target to preprocess a source file
-subtree/rabit/test/speed_test.cc.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.i
-.PHONY : subtree/rabit/test/speed_test.cc.i
+src/tree/updater_refresh.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/updater_refresh.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.i
+.PHONY : src/tree/updater_refresh.cc.i
 
-subtree/rabit/test/speed_test.s: subtree/rabit/test/speed_test.cc.s
+src/tree/updater_refresh.s: src/tree/updater_refresh.cc.s
 
-.PHONY : subtree/rabit/test/speed_test.s
+.PHONY : src/tree/updater_refresh.s
 
 # target to generate assembly for a file
-subtree/rabit/test/speed_test.cc.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.s
-.PHONY : subtree/rabit/test/speed_test.cc.s
+src/tree/updater_refresh.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/updater_refresh.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.s
+.PHONY : src/tree/updater_refresh.cc.s
 
-subtree/rabit/wrapper/rabit_wrapper.o: subtree/rabit/wrapper/rabit_wrapper.cc.o
+src/tree/updater_skmaker.o: src/tree/updater_skmaker.cc.o
 
-.PHONY : subtree/rabit/wrapper/rabit_wrapper.o
+.PHONY : src/tree/updater_skmaker.o
 
 # target to build an object file
-subtree/rabit/wrapper/rabit_wrapper.cc.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.o
-.PHONY : subtree/rabit/wrapper/rabit_wrapper.cc.o
+src/tree/updater_skmaker.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/updater_skmaker.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.o
+.PHONY : src/tree/updater_skmaker.cc.o
 
-subtree/rabit/wrapper/rabit_wrapper.i: subtree/rabit/wrapper/rabit_wrapper.cc.i
+src/tree/updater_skmaker.i: src/tree/updater_skmaker.cc.i
 
-.PHONY : subtree/rabit/wrapper/rabit_wrapper.i
+.PHONY : src/tree/updater_skmaker.i
 
 # target to preprocess a source file
-subtree/rabit/wrapper/rabit_wrapper.cc.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.i
-.PHONY : subtree/rabit/wrapper/rabit_wrapper.cc.i
+src/tree/updater_skmaker.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/updater_skmaker.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.i
+.PHONY : src/tree/updater_skmaker.cc.i
 
-subtree/rabit/wrapper/rabit_wrapper.s: subtree/rabit/wrapper/rabit_wrapper.cc.s
+src/tree/updater_skmaker.s: src/tree/updater_skmaker.cc.s
 
-.PHONY : subtree/rabit/wrapper/rabit_wrapper.s
+.PHONY : src/tree/updater_skmaker.s
 
 # target to generate assembly for a file
-subtree/rabit/wrapper/rabit_wrapper.cc.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.s
-.PHONY : subtree/rabit/wrapper/rabit_wrapper.cc.s
+src/tree/updater_skmaker.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/updater_skmaker.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.s
+.PHONY : src/tree/updater_skmaker.cc.s
 
-wrapper/xgboost_wrapper.o: wrapper/xgboost_wrapper.cpp.o
+src/tree/updater_sync.o: src/tree/updater_sync.cc.o
 
-.PHONY : wrapper/xgboost_wrapper.o
+.PHONY : src/tree/updater_sync.o
 
 # target to build an object file
-wrapper/xgboost_wrapper.cpp.o:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.o
-.PHONY : wrapper/xgboost_wrapper.cpp.o
+src/tree/updater_sync.cc.o:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/updater_sync.cc.o
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.o
+.PHONY : src/tree/updater_sync.cc.o
 
-wrapper/xgboost_wrapper.i: wrapper/xgboost_wrapper.cpp.i
+src/tree/updater_sync.i: src/tree/updater_sync.cc.i
 
-.PHONY : wrapper/xgboost_wrapper.i
+.PHONY : src/tree/updater_sync.i
 
 # target to preprocess a source file
-wrapper/xgboost_wrapper.cpp.i:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.i
-.PHONY : wrapper/xgboost_wrapper.cpp.i
+src/tree/updater_sync.cc.i:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/updater_sync.cc.i
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.i
+.PHONY : src/tree/updater_sync.cc.i
 
-wrapper/xgboost_wrapper.s: wrapper/xgboost_wrapper.cpp.s
+src/tree/updater_sync.s: src/tree/updater_sync.cc.s
 
-.PHONY : wrapper/xgboost_wrapper.s
+.PHONY : src/tree/updater_sync.s
 
 # target to generate assembly for a file
-wrapper/xgboost_wrapper.cpp.s:
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.s
-.PHONY : wrapper/xgboost_wrapper.cpp.s
+src/tree/updater_sync.cc.s:
+	$(MAKE) -f CMakeFiles/libxgboost.dir/build.make CMakeFiles/libxgboost.dir/src/tree/updater_sync.cc.s
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.s
+.PHONY : src/tree/updater_sync.cc.s
 
 # Help Target
 help:
@@ -779,79 +1117,105 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... libxgboost"
 	@echo "... xgboost"
-	@echo "... R-package/src/xgboost_R.o"
-	@echo "... R-package/src/xgboost_R.i"
-	@echo "... R-package/src/xgboost_R.s"
-	@echo "... R-package/src/xgboost_assert.o"
-	@echo "... R-package/src/xgboost_assert.i"
-	@echo "... R-package/src/xgboost_assert.s"
-	@echo "... java/xgboost4j_wrapper.o"
-	@echo "... java/xgboost4j_wrapper.i"
-	@echo "... java/xgboost4j_wrapper.s"
+	@echo "... rabit"
+	@echo "... src/c_api/c_api.o"
+	@echo "... src/c_api/c_api.i"
+	@echo "... src/c_api/c_api.s"
+	@echo "... src/c_api/c_api_error.o"
+	@echo "... src/c_api/c_api_error.i"
+	@echo "... src/c_api/c_api_error.s"
+	@echo "... src/cli_main.o"
+	@echo "... src/cli_main.i"
+	@echo "... src/cli_main.s"
+	@echo "... src/common/common.o"
+	@echo "... src/common/common.i"
+	@echo "... src/common/common.s"
+	@echo "... src/data/data.o"
+	@echo "... src/data/data.i"
+	@echo "... src/data/data.s"
+	@echo "... src/data/simple_csr_source.o"
+	@echo "... src/data/simple_csr_source.i"
+	@echo "... src/data/simple_csr_source.s"
+	@echo "... src/data/simple_dmatrix.o"
+	@echo "... src/data/simple_dmatrix.i"
+	@echo "... src/data/simple_dmatrix.s"
+	@echo "... src/data/sparse_page_dmatrix.o"
+	@echo "... src/data/sparse_page_dmatrix.i"
+	@echo "... src/data/sparse_page_dmatrix.s"
+	@echo "... src/data/sparse_page_raw_format.o"
+	@echo "... src/data/sparse_page_raw_format.i"
+	@echo "... src/data/sparse_page_raw_format.s"
+	@echo "... src/data/sparse_page_source.o"
+	@echo "... src/data/sparse_page_source.i"
+	@echo "... src/data/sparse_page_source.s"
+	@echo "... src/data/sparse_page_writer.o"
+	@echo "... src/data/sparse_page_writer.i"
+	@echo "... src/data/sparse_page_writer.s"
+	@echo "... src/gbm/gblinear.o"
+	@echo "... src/gbm/gblinear.i"
+	@echo "... src/gbm/gblinear.s"
 	@echo "... src/gbm/gbm.o"
 	@echo "... src/gbm/gbm.i"
 	@echo "... src/gbm/gbm.s"
-	@echo "... src/io/dmlc_simple.o"
-	@echo "... src/io/dmlc_simple.i"
-	@echo "... src/io/dmlc_simple.s"
-	@echo "... src/io/io.o"
-	@echo "... src/io/io.i"
-	@echo "... src/io/io.s"
-	@echo "... src/tree/updater.o"
-	@echo "... src/tree/updater.i"
-	@echo "... src/tree/updater.s"
-	@echo "... src/xgboost_main.o"
-	@echo "... src/xgboost_main.i"
-	@echo "... src/xgboost_main.s"
-	@echo "... subtree/rabit/guide/basic.o"
-	@echo "... subtree/rabit/guide/basic.i"
-	@echo "... subtree/rabit/guide/basic.s"
-	@echo "... subtree/rabit/guide/broadcast.o"
-	@echo "... subtree/rabit/guide/broadcast.i"
-	@echo "... subtree/rabit/guide/broadcast.s"
-	@echo "... subtree/rabit/guide/lazy_allreduce.o"
-	@echo "... subtree/rabit/guide/lazy_allreduce.i"
-	@echo "... subtree/rabit/guide/lazy_allreduce.s"
-	@echo "... subtree/rabit/src/allreduce_base.o"
-	@echo "... subtree/rabit/src/allreduce_base.i"
-	@echo "... subtree/rabit/src/allreduce_base.s"
-	@echo "... subtree/rabit/src/allreduce_robust.o"
-	@echo "... subtree/rabit/src/allreduce_robust.i"
-	@echo "... subtree/rabit/src/allreduce_robust.s"
-	@echo "... subtree/rabit/src/engine.o"
-	@echo "... subtree/rabit/src/engine.i"
-	@echo "... subtree/rabit/src/engine.s"
-	@echo "... subtree/rabit/src/engine_base.o"
-	@echo "... subtree/rabit/src/engine_base.i"
-	@echo "... subtree/rabit/src/engine_base.s"
-	@echo "... subtree/rabit/src/engine_empty.o"
-	@echo "... subtree/rabit/src/engine_empty.i"
-	@echo "... subtree/rabit/src/engine_empty.s"
-	@echo "... subtree/rabit/src/engine_mock.o"
-	@echo "... subtree/rabit/src/engine_mock.i"
-	@echo "... subtree/rabit/src/engine_mock.s"
-	@echo "... subtree/rabit/src/engine_mpi.o"
-	@echo "... subtree/rabit/src/engine_mpi.i"
-	@echo "... subtree/rabit/src/engine_mpi.s"
-	@echo "... subtree/rabit/test/lazy_recover.o"
-	@echo "... subtree/rabit/test/lazy_recover.i"
-	@echo "... subtree/rabit/test/lazy_recover.s"
-	@echo "... subtree/rabit/test/local_recover.o"
-	@echo "... subtree/rabit/test/local_recover.i"
-	@echo "... subtree/rabit/test/local_recover.s"
-	@echo "... subtree/rabit/test/model_recover.o"
-	@echo "... subtree/rabit/test/model_recover.i"
-	@echo "... subtree/rabit/test/model_recover.s"
-	@echo "... subtree/rabit/test/speed_test.o"
-	@echo "... subtree/rabit/test/speed_test.i"
-	@echo "... subtree/rabit/test/speed_test.s"
-	@echo "... subtree/rabit/wrapper/rabit_wrapper.o"
-	@echo "... subtree/rabit/wrapper/rabit_wrapper.i"
-	@echo "... subtree/rabit/wrapper/rabit_wrapper.s"
-	@echo "... wrapper/xgboost_wrapper.o"
-	@echo "... wrapper/xgboost_wrapper.i"
-	@echo "... wrapper/xgboost_wrapper.s"
+	@echo "... src/gbm/gbtree.o"
+	@echo "... src/gbm/gbtree.i"
+	@echo "... src/gbm/gbtree.s"
+	@echo "... src/learner.o"
+	@echo "... src/learner.i"
+	@echo "... src/learner.s"
+	@echo "... src/logging.o"
+	@echo "... src/logging.i"
+	@echo "... src/logging.s"
+	@echo "... src/metric/elementwise_metric.o"
+	@echo "... src/metric/elementwise_metric.i"
+	@echo "... src/metric/elementwise_metric.s"
+	@echo "... src/metric/metric.o"
+	@echo "... src/metric/metric.i"
+	@echo "... src/metric/metric.s"
+	@echo "... src/metric/multiclass_metric.o"
+	@echo "... src/metric/multiclass_metric.i"
+	@echo "... src/metric/multiclass_metric.s"
+	@echo "... src/metric/rank_metric.o"
+	@echo "... src/metric/rank_metric.i"
+	@echo "... src/metric/rank_metric.s"
+	@echo "... src/objective/multiclass_obj.o"
+	@echo "... src/objective/multiclass_obj.i"
+	@echo "... src/objective/multiclass_obj.s"
+	@echo "... src/objective/objective.o"
+	@echo "... src/objective/objective.i"
+	@echo "... src/objective/objective.s"
+	@echo "... src/objective/rank_obj.o"
+	@echo "... src/objective/rank_obj.i"
+	@echo "... src/objective/rank_obj.s"
+	@echo "... src/objective/regression_obj.o"
+	@echo "... src/objective/regression_obj.i"
+	@echo "... src/objective/regression_obj.s"
+	@echo "... src/tree/tree_model.o"
+	@echo "... src/tree/tree_model.i"
+	@echo "... src/tree/tree_model.s"
+	@echo "... src/tree/tree_updater.o"
+	@echo "... src/tree/tree_updater.i"
+	@echo "... src/tree/tree_updater.s"
+	@echo "... src/tree/updater_colmaker.o"
+	@echo "... src/tree/updater_colmaker.i"
+	@echo "... src/tree/updater_colmaker.s"
+	@echo "... src/tree/updater_histmaker.o"
+	@echo "... src/tree/updater_histmaker.i"
+	@echo "... src/tree/updater_histmaker.s"
+	@echo "... src/tree/updater_prune.o"
+	@echo "... src/tree/updater_prune.i"
+	@echo "... src/tree/updater_prune.s"
+	@echo "... src/tree/updater_refresh.o"
+	@echo "... src/tree/updater_refresh.i"
+	@echo "... src/tree/updater_refresh.s"
+	@echo "... src/tree/updater_skmaker.o"
+	@echo "... src/tree/updater_skmaker.i"
+	@echo "... src/tree/updater_skmaker.s"
+	@echo "... src/tree/updater_sync.o"
+	@echo "... src/tree/updater_sync.i"
+	@echo "... src/tree/updater_sync.s"
 .PHONY : help
 
 

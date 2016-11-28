@@ -57,670 +57,887 @@ include CMakeFiles/xgboost.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/xgboost.dir/flags.make
 
-CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.o: ../java/xgboost4j_wrapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.o -c /Users/zhangwuhang/Documents/workspace/xgboost/java/xgboost4j_wrapper.cpp
+CMakeFiles/xgboost.dir/src/c_api/c_api.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/c_api/c_api.cc.o: ../src/c_api/c_api.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/xgboost.dir/src/c_api/c_api.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/c_api/c_api.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/c_api/c_api.cc
 
-CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/java/xgboost4j_wrapper.cpp > CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.i
+CMakeFiles/xgboost.dir/src/c_api/c_api.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/c_api/c_api.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/c_api/c_api.cc > CMakeFiles/xgboost.dir/src/c_api/c_api.cc.i
 
-CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/java/xgboost4j_wrapper.cpp -o CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.s
+CMakeFiles/xgboost.dir/src/c_api/c_api.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/c_api/c_api.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/c_api/c_api.cc -o CMakeFiles/xgboost.dir/src/c_api/c_api.cc.s
 
-CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.o.requires:
+CMakeFiles/xgboost.dir/src/c_api/c_api.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/c_api/c_api.cc.o.requires
 
-CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.o.provides: CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.o.provides
+CMakeFiles/xgboost.dir/src/c_api/c_api.cc.o.provides: CMakeFiles/xgboost.dir/src/c_api/c_api.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/c_api/c_api.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/c_api/c_api.cc.o.provides
 
-CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.o.provides.build: CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.o
+CMakeFiles/xgboost.dir/src/c_api/c_api.cc.o.provides.build: CMakeFiles/xgboost.dir/src/c_api/c_api.cc.o
 
 
-CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.o: ../R-package/src/xgboost_assert.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.o   -c /Users/zhangwuhang/Documents/workspace/xgboost/R-package/src/xgboost_assert.c
+CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.o: ../src/c_api/c_api_error.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/c_api/c_api_error.cc
 
-CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/R-package/src/xgboost_assert.c > CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.i
+CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/c_api/c_api_error.cc > CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.i
 
-CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/R-package/src/xgboost_assert.c -o CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.s
+CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/c_api/c_api_error.cc -o CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.s
 
-CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.o.requires:
+CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.o.requires
 
-CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.o.provides: CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.o.provides
+CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.o.provides: CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.o.provides
 
-CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.o.provides.build: CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.o
+CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.o.provides.build: CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.o
 
 
-CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.o: ../R-package/src/xgboost_R.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.o -c /Users/zhangwuhang/Documents/workspace/xgboost/R-package/src/xgboost_R.cpp
+CMakeFiles/xgboost.dir/src/common/common.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/common/common.cc.o: ../src/common/common.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/xgboost.dir/src/common/common.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/common/common.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/common/common.cc
 
-CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/R-package/src/xgboost_R.cpp > CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.i
+CMakeFiles/xgboost.dir/src/common/common.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/common/common.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/common/common.cc > CMakeFiles/xgboost.dir/src/common/common.cc.i
 
-CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/R-package/src/xgboost_R.cpp -o CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.s
+CMakeFiles/xgboost.dir/src/common/common.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/common/common.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/common/common.cc -o CMakeFiles/xgboost.dir/src/common/common.cc.s
 
-CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.o.requires:
+CMakeFiles/xgboost.dir/src/common/common.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/common/common.cc.o.requires
 
-CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.o.provides: CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.o.provides
+CMakeFiles/xgboost.dir/src/common/common.cc.o.provides: CMakeFiles/xgboost.dir/src/common/common.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/common/common.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/common/common.cc.o.provides
 
-CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.o.provides.build: CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.o
+CMakeFiles/xgboost.dir/src/common/common.cc.o.provides.build: CMakeFiles/xgboost.dir/src/common/common.cc.o
 
 
-CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.o: ../src/gbm/gbm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gbm.cpp
+CMakeFiles/xgboost.dir/src/data/data.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/data/data.cc.o: ../src/data/data.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/xgboost.dir/src/data/data.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/data/data.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/data/data.cc
 
-CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gbm.cpp > CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.i
+CMakeFiles/xgboost.dir/src/data/data.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/data/data.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/data/data.cc > CMakeFiles/xgboost.dir/src/data/data.cc.i
 
-CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gbm.cpp -o CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.s
+CMakeFiles/xgboost.dir/src/data/data.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/data/data.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/data/data.cc -o CMakeFiles/xgboost.dir/src/data/data.cc.s
 
-CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.o.requires:
+CMakeFiles/xgboost.dir/src/data/data.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/data/data.cc.o.requires
 
-CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.o.provides: CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.o.provides
+CMakeFiles/xgboost.dir/src/data/data.cc.o.provides: CMakeFiles/xgboost.dir/src/data/data.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/data.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/data/data.cc.o.provides
 
-CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.o.provides.build: CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.o
+CMakeFiles/xgboost.dir/src/data/data.cc.o.provides.build: CMakeFiles/xgboost.dir/src/data/data.cc.o
 
 
-CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.o: ../src/io/dmlc_simple.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/io/dmlc_simple.cpp
+CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.o: ../src/data/simple_csr_source.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/data/simple_csr_source.cc
 
-CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/io/dmlc_simple.cpp > CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.i
+CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/data/simple_csr_source.cc > CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.i
 
-CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/io/dmlc_simple.cpp -o CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.s
+CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/data/simple_csr_source.cc -o CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.s
 
-CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.o.requires:
+CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.o.requires
 
-CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.o.provides: CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.o.provides
+CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.o.provides: CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.o.provides
 
-CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.o.provides.build: CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.o
+CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.o.provides.build: CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.o
 
 
-CMakeFiles/xgboost.dir/src/io/io.cpp.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/src/io/io.cpp.o: ../src/io/io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/xgboost.dir/src/io/io.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/io/io.cpp.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/io/io.cpp
+CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.o: ../src/data/simple_dmatrix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/data/simple_dmatrix.cc
 
-CMakeFiles/xgboost.dir/src/io/io.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/io/io.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/io/io.cpp > CMakeFiles/xgboost.dir/src/io/io.cpp.i
+CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/data/simple_dmatrix.cc > CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.i
 
-CMakeFiles/xgboost.dir/src/io/io.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/io/io.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/io/io.cpp -o CMakeFiles/xgboost.dir/src/io/io.cpp.s
+CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/data/simple_dmatrix.cc -o CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.s
 
-CMakeFiles/xgboost.dir/src/io/io.cpp.o.requires:
+CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/src/io/io.cpp.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.o.requires
 
-CMakeFiles/xgboost.dir/src/io/io.cpp.o.provides: CMakeFiles/xgboost.dir/src/io/io.cpp.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/io/io.cpp.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/src/io/io.cpp.o.provides
+CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.o.provides: CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.o.provides
 
-CMakeFiles/xgboost.dir/src/io/io.cpp.o.provides.build: CMakeFiles/xgboost.dir/src/io/io.cpp.o
+CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.o.provides.build: CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.o
 
 
-CMakeFiles/xgboost.dir/src/tree/updater.cpp.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/src/tree/updater.cpp.o: ../src/tree/updater.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/xgboost.dir/src/tree/updater.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/tree/updater.cpp.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater.cpp
+CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.o: ../src/data/sparse_page_dmatrix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_dmatrix.cc
 
-CMakeFiles/xgboost.dir/src/tree/updater.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/tree/updater.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater.cpp > CMakeFiles/xgboost.dir/src/tree/updater.cpp.i
+CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_dmatrix.cc > CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.i
 
-CMakeFiles/xgboost.dir/src/tree/updater.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/tree/updater.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater.cpp -o CMakeFiles/xgboost.dir/src/tree/updater.cpp.s
+CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_dmatrix.cc -o CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.s
 
-CMakeFiles/xgboost.dir/src/tree/updater.cpp.o.requires:
+CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/src/tree/updater.cpp.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.o.requires
 
-CMakeFiles/xgboost.dir/src/tree/updater.cpp.o.provides: CMakeFiles/xgboost.dir/src/tree/updater.cpp.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater.cpp.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/src/tree/updater.cpp.o.provides
+CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.o.provides: CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.o.provides
 
-CMakeFiles/xgboost.dir/src/tree/updater.cpp.o.provides.build: CMakeFiles/xgboost.dir/src/tree/updater.cpp.o
+CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.o.provides.build: CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.o
 
 
-CMakeFiles/xgboost.dir/src/xgboost_main.cpp.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/src/xgboost_main.cpp.o: ../src/xgboost_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/xgboost.dir/src/xgboost_main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/xgboost_main.cpp.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/xgboost_main.cpp
+CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.o: ../src/data/sparse_page_raw_format.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_raw_format.cc
 
-CMakeFiles/xgboost.dir/src/xgboost_main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/xgboost_main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/xgboost_main.cpp > CMakeFiles/xgboost.dir/src/xgboost_main.cpp.i
+CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_raw_format.cc > CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.i
 
-CMakeFiles/xgboost.dir/src/xgboost_main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/xgboost_main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/xgboost_main.cpp -o CMakeFiles/xgboost.dir/src/xgboost_main.cpp.s
+CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_raw_format.cc -o CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.s
 
-CMakeFiles/xgboost.dir/src/xgboost_main.cpp.o.requires:
+CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/src/xgboost_main.cpp.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.o.requires
 
-CMakeFiles/xgboost.dir/src/xgboost_main.cpp.o.provides: CMakeFiles/xgboost.dir/src/xgboost_main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/xgboost_main.cpp.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/src/xgboost_main.cpp.o.provides
+CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.o.provides: CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.o.provides
 
-CMakeFiles/xgboost.dir/src/xgboost_main.cpp.o.provides.build: CMakeFiles/xgboost.dir/src/xgboost_main.cpp.o
+CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.o.provides.build: CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.o
 
 
-CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.o: ../subtree/rabit/guide/basic.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/guide/basic.cc
+CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.o: ../src/data/sparse_page_source.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_source.cc
 
-CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/guide/basic.cc > CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.i
+CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_source.cc > CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.i
 
-CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/guide/basic.cc -o CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.s
+CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_source.cc -o CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.s
 
-CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.o.requires:
+CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.o.requires
 
-CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.o.provides: CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.o.provides
+CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.o.provides: CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.o.provides
 
-CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.o.provides.build: CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.o
+CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.o.provides.build: CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.o
 
 
-CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.o: ../subtree/rabit/guide/broadcast.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/guide/broadcast.cc
+CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.o: ../src/data/sparse_page_writer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_writer.cc
 
-CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/guide/broadcast.cc > CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.i
+CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_writer.cc > CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.i
 
-CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/guide/broadcast.cc -o CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.s
+CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_writer.cc -o CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.s
 
-CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.o.requires:
+CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.o.requires
 
-CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.o.provides: CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.o.provides
+CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.o.provides: CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.o.provides
 
-CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.o.provides.build: CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.o
+CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.o.provides.build: CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.o
 
 
-CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.o: ../subtree/rabit/guide/lazy_allreduce.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/guide/lazy_allreduce.cc
+CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.o: ../src/gbm/gblinear.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gblinear.cc
 
-CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/guide/lazy_allreduce.cc > CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.i
+CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gblinear.cc > CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.i
 
-CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/guide/lazy_allreduce.cc -o CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.s
+CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gblinear.cc -o CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.s
 
-CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.o.requires:
+CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.o.requires
 
-CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.o.provides: CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.o.provides
+CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.o.provides: CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.o.provides
 
-CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.o.provides.build: CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.o
+CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.o.provides.build: CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.o
 
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.o: ../subtree/rabit/src/allreduce_base.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/allreduce_base.cc
+CMakeFiles/xgboost.dir/src/gbm/gbm.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/gbm/gbm.cc.o: ../src/gbm/gbm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/xgboost.dir/src/gbm/gbm.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/gbm/gbm.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gbm.cc
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/allreduce_base.cc > CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.i
+CMakeFiles/xgboost.dir/src/gbm/gbm.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/gbm/gbm.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gbm.cc > CMakeFiles/xgboost.dir/src/gbm/gbm.cc.i
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/allreduce_base.cc -o CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.s
+CMakeFiles/xgboost.dir/src/gbm/gbm.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/gbm/gbm.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gbm.cc -o CMakeFiles/xgboost.dir/src/gbm/gbm.cc.s
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.o.requires:
+CMakeFiles/xgboost.dir/src/gbm/gbm.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/gbm/gbm.cc.o.requires
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.o.provides: CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.o.provides
+CMakeFiles/xgboost.dir/src/gbm/gbm.cc.o.provides: CMakeFiles/xgboost.dir/src/gbm/gbm.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/gbm/gbm.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/gbm/gbm.cc.o.provides
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.o.provides.build: CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.o
+CMakeFiles/xgboost.dir/src/gbm/gbm.cc.o.provides.build: CMakeFiles/xgboost.dir/src/gbm/gbm.cc.o
 
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.o: ../subtree/rabit/src/allreduce_robust.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/allreduce_robust.cc
+CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.o: ../src/gbm/gbtree.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gbtree.cc
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/allreduce_robust.cc > CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.i
+CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gbtree.cc > CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.i
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/allreduce_robust.cc -o CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.s
+CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gbtree.cc -o CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.s
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.o.requires:
+CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.o.requires
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.o.provides: CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.o.provides
+CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.o.provides: CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.o.provides
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.o.provides.build: CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.o
+CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.o.provides.build: CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.o
 
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.o: ../subtree/rabit/src/engine.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine.cc
+CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.o: ../src/metric/elementwise_metric.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/metric/elementwise_metric.cc
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine.cc > CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.i
+CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/metric/elementwise_metric.cc > CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.i
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine.cc -o CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.s
+CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/metric/elementwise_metric.cc -o CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.s
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.o.requires:
+CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.o.requires
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.o.provides: CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.o.provides
+CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.o.provides: CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.o.provides
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.o.provides.build: CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.o
+CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.o.provides.build: CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.o
 
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.o: ../subtree/rabit/src/engine_base.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_base.cc
+CMakeFiles/xgboost.dir/src/metric/metric.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/metric/metric.cc.o: ../src/metric/metric.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/xgboost.dir/src/metric/metric.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/metric/metric.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/metric/metric.cc
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_base.cc > CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.i
+CMakeFiles/xgboost.dir/src/metric/metric.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/metric/metric.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/metric/metric.cc > CMakeFiles/xgboost.dir/src/metric/metric.cc.i
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_base.cc -o CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.s
+CMakeFiles/xgboost.dir/src/metric/metric.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/metric/metric.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/metric/metric.cc -o CMakeFiles/xgboost.dir/src/metric/metric.cc.s
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.o.requires:
+CMakeFiles/xgboost.dir/src/metric/metric.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/metric/metric.cc.o.requires
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.o.provides: CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.o.provides
+CMakeFiles/xgboost.dir/src/metric/metric.cc.o.provides: CMakeFiles/xgboost.dir/src/metric/metric.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/metric/metric.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/metric/metric.cc.o.provides
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.o.provides.build: CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.o
+CMakeFiles/xgboost.dir/src/metric/metric.cc.o.provides.build: CMakeFiles/xgboost.dir/src/metric/metric.cc.o
 
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.o: ../subtree/rabit/src/engine_empty.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_empty.cc
+CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.o: ../src/metric/multiclass_metric.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/metric/multiclass_metric.cc
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_empty.cc > CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.i
+CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/metric/multiclass_metric.cc > CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.i
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_empty.cc -o CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.s
+CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/metric/multiclass_metric.cc -o CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.s
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.o.requires:
+CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.o.requires
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.o.provides: CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.o.provides
+CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.o.provides: CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.o.provides
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.o.provides.build: CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.o
+CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.o.provides.build: CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.o
 
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.o: ../subtree/rabit/src/engine_mock.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_mock.cc
+CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.o: ../src/metric/rank_metric.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/metric/rank_metric.cc
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_mock.cc > CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.i
+CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/metric/rank_metric.cc > CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.i
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_mock.cc -o CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.s
+CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/metric/rank_metric.cc -o CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.s
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.o.requires:
+CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.o.requires
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.o.provides: CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.o.provides
+CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.o.provides: CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.o.provides
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.o.provides.build: CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.o
+CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.o.provides.build: CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.o
 
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.o: ../subtree/rabit/src/engine_mpi.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_mpi.cc
+CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.o: ../src/objective/multiclass_obj.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/objective/multiclass_obj.cc
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_mpi.cc > CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.i
+CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/objective/multiclass_obj.cc > CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.i
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_mpi.cc -o CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.s
+CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/objective/multiclass_obj.cc -o CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.s
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.o.requires:
+CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.o.requires
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.o.provides: CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.o.provides
+CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.o.provides: CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.o.provides
 
-CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.o.provides.build: CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.o
+CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.o.provides.build: CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.o
 
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.o: ../subtree/rabit/test/lazy_recover.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/lazy_recover.cc
+CMakeFiles/xgboost.dir/src/objective/objective.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/objective/objective.cc.o: ../src/objective/objective.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/xgboost.dir/src/objective/objective.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/objective/objective.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/objective/objective.cc
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/lazy_recover.cc > CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.i
+CMakeFiles/xgboost.dir/src/objective/objective.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/objective/objective.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/objective/objective.cc > CMakeFiles/xgboost.dir/src/objective/objective.cc.i
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/lazy_recover.cc -o CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.s
+CMakeFiles/xgboost.dir/src/objective/objective.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/objective/objective.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/objective/objective.cc -o CMakeFiles/xgboost.dir/src/objective/objective.cc.s
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.o.requires:
+CMakeFiles/xgboost.dir/src/objective/objective.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/objective/objective.cc.o.requires
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.o.provides: CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.o.provides
+CMakeFiles/xgboost.dir/src/objective/objective.cc.o.provides: CMakeFiles/xgboost.dir/src/objective/objective.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/objective/objective.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/objective/objective.cc.o.provides
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.o.provides.build: CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.o
+CMakeFiles/xgboost.dir/src/objective/objective.cc.o.provides.build: CMakeFiles/xgboost.dir/src/objective/objective.cc.o
 
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.o: ../subtree/rabit/test/local_recover.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/local_recover.cc
+CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.o: ../src/objective/rank_obj.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/objective/rank_obj.cc
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/local_recover.cc > CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.i
+CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/objective/rank_obj.cc > CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.i
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/local_recover.cc -o CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.s
+CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/objective/rank_obj.cc -o CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.s
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.o.requires:
+CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.o.requires
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.o.provides: CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.o.provides
+CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.o.provides: CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.o.provides
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.o.provides.build: CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.o
+CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.o.provides.build: CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.o
 
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.o: ../subtree/rabit/test/model_recover.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/model_recover.cc
+CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.o: ../src/objective/regression_obj.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/objective/regression_obj.cc
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/model_recover.cc > CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.i
+CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/objective/regression_obj.cc > CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.i
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/model_recover.cc -o CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.s
+CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/objective/regression_obj.cc -o CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.s
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.o.requires:
+CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.o.requires
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.o.provides: CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.o.provides
+CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.o.provides: CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.o.provides
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.o.provides.build: CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.o
+CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.o.provides.build: CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.o
 
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.o: ../subtree/rabit/test/speed_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/speed_test.cc
+CMakeFiles/xgboost.dir/src/tree/tree_model.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/tree/tree_model.cc.o: ../src/tree/tree_model.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/xgboost.dir/src/tree/tree_model.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/tree/tree_model.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/tree_model.cc
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/speed_test.cc > CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.i
+CMakeFiles/xgboost.dir/src/tree/tree_model.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/tree/tree_model.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/tree_model.cc > CMakeFiles/xgboost.dir/src/tree/tree_model.cc.i
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/speed_test.cc -o CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.s
+CMakeFiles/xgboost.dir/src/tree/tree_model.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/tree/tree_model.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/tree_model.cc -o CMakeFiles/xgboost.dir/src/tree/tree_model.cc.s
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.o.requires:
+CMakeFiles/xgboost.dir/src/tree/tree_model.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/tree/tree_model.cc.o.requires
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.o.provides: CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.o.provides
+CMakeFiles/xgboost.dir/src/tree/tree_model.cc.o.provides: CMakeFiles/xgboost.dir/src/tree/tree_model.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/tree_model.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/tree/tree_model.cc.o.provides
 
-CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.o.provides.build: CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.o
+CMakeFiles/xgboost.dir/src/tree/tree_model.cc.o.provides.build: CMakeFiles/xgboost.dir/src/tree/tree_model.cc.o
 
 
-CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.o: ../subtree/rabit/wrapper/rabit_wrapper.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/wrapper/rabit_wrapper.cc
+CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.o: ../src/tree/tree_updater.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/tree_updater.cc
 
-CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/wrapper/rabit_wrapper.cc > CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.i
+CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/tree_updater.cc > CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.i
 
-CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/wrapper/rabit_wrapper.cc -o CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.s
+CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/tree_updater.cc -o CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.s
 
-CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.o.requires:
+CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.o.requires
 
-CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.o.provides: CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.o.provides
+CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.o.provides: CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.o.provides
 
-CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.o.provides.build: CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.o
+CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.o.provides.build: CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.o
 
 
-CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.o: CMakeFiles/xgboost.dir/flags.make
-CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.o: ../wrapper/xgboost_wrapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.o -c /Users/zhangwuhang/Documents/workspace/xgboost/wrapper/xgboost_wrapper.cpp
+CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.o: ../src/tree/updater_colmaker.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_colmaker.cc
 
-CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/wrapper/xgboost_wrapper.cpp > CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.i
+CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_colmaker.cc > CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.i
 
-CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/wrapper/xgboost_wrapper.cpp -o CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.s
+CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_colmaker.cc -o CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.s
 
-CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.o.requires:
+CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.o.requires:
 
-.PHONY : CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.o.requires
+.PHONY : CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.o.requires
 
-CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.o.provides: CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.o.requires
-	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.o.provides.build
-.PHONY : CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.o.provides
+CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.o.provides: CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.o.provides
 
-CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.o.provides.build: CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.o
+CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.o.provides.build: CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.o
+
+
+CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.o: ../src/tree/updater_histmaker.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_histmaker.cc
+
+CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_histmaker.cc > CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.i
+
+CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_histmaker.cc -o CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.s
+
+CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.o.requires:
+
+.PHONY : CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.o.requires
+
+CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.o.provides: CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.o.provides
+
+CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.o.provides.build: CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.o
+
+
+CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.o: ../src/tree/updater_prune.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_prune.cc
+
+CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_prune.cc > CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.i
+
+CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_prune.cc -o CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.s
+
+CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.o.requires:
+
+.PHONY : CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.o.requires
+
+CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.o.provides: CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.o.provides
+
+CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.o.provides.build: CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.o
+
+
+CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.o: ../src/tree/updater_refresh.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_refresh.cc
+
+CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_refresh.cc > CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.i
+
+CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_refresh.cc -o CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.s
+
+CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.o.requires:
+
+.PHONY : CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.o.requires
+
+CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.o.provides: CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.o.provides
+
+CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.o.provides.build: CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.o
+
+
+CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.o: ../src/tree/updater_skmaker.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_skmaker.cc
+
+CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_skmaker.cc > CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.i
+
+CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_skmaker.cc -o CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.s
+
+CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.o.requires:
+
+.PHONY : CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.o.requires
+
+CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.o.provides: CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.o.provides
+
+CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.o.provides.build: CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.o
+
+
+CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.o: ../src/tree/updater_sync.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_sync.cc
+
+CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_sync.cc > CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.i
+
+CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_sync.cc -o CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.s
+
+CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.o.requires:
+
+.PHONY : CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.o.requires
+
+CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.o.provides: CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.o.provides
+
+CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.o.provides.build: CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.o
+
+
+CMakeFiles/xgboost.dir/src/cli_main.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/cli_main.cc.o: ../src/cli_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/xgboost.dir/src/cli_main.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/cli_main.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/cli_main.cc
+
+CMakeFiles/xgboost.dir/src/cli_main.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/cli_main.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/cli_main.cc > CMakeFiles/xgboost.dir/src/cli_main.cc.i
+
+CMakeFiles/xgboost.dir/src/cli_main.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/cli_main.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/cli_main.cc -o CMakeFiles/xgboost.dir/src/cli_main.cc.s
+
+CMakeFiles/xgboost.dir/src/cli_main.cc.o.requires:
+
+.PHONY : CMakeFiles/xgboost.dir/src/cli_main.cc.o.requires
+
+CMakeFiles/xgboost.dir/src/cli_main.cc.o.provides: CMakeFiles/xgboost.dir/src/cli_main.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/cli_main.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/cli_main.cc.o.provides
+
+CMakeFiles/xgboost.dir/src/cli_main.cc.o.provides.build: CMakeFiles/xgboost.dir/src/cli_main.cc.o
+
+
+CMakeFiles/xgboost.dir/src/learner.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/learner.cc.o: ../src/learner.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/xgboost.dir/src/learner.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/learner.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/learner.cc
+
+CMakeFiles/xgboost.dir/src/learner.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/learner.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/learner.cc > CMakeFiles/xgboost.dir/src/learner.cc.i
+
+CMakeFiles/xgboost.dir/src/learner.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/learner.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/learner.cc -o CMakeFiles/xgboost.dir/src/learner.cc.s
+
+CMakeFiles/xgboost.dir/src/learner.cc.o.requires:
+
+.PHONY : CMakeFiles/xgboost.dir/src/learner.cc.o.requires
+
+CMakeFiles/xgboost.dir/src/learner.cc.o.provides: CMakeFiles/xgboost.dir/src/learner.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/learner.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/learner.cc.o.provides
+
+CMakeFiles/xgboost.dir/src/learner.cc.o.provides.build: CMakeFiles/xgboost.dir/src/learner.cc.o
+
+
+CMakeFiles/xgboost.dir/src/logging.cc.o: CMakeFiles/xgboost.dir/flags.make
+CMakeFiles/xgboost.dir/src/logging.cc.o: ../src/logging.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/xgboost.dir/src/logging.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xgboost.dir/src/logging.cc.o -c /Users/zhangwuhang/Documents/workspace/xgboost/src/logging.cc
+
+CMakeFiles/xgboost.dir/src/logging.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xgboost.dir/src/logging.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangwuhang/Documents/workspace/xgboost/src/logging.cc > CMakeFiles/xgboost.dir/src/logging.cc.i
+
+CMakeFiles/xgboost.dir/src/logging.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xgboost.dir/src/logging.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangwuhang/Documents/workspace/xgboost/src/logging.cc -o CMakeFiles/xgboost.dir/src/logging.cc.s
+
+CMakeFiles/xgboost.dir/src/logging.cc.o.requires:
+
+.PHONY : CMakeFiles/xgboost.dir/src/logging.cc.o.requires
+
+CMakeFiles/xgboost.dir/src/logging.cc.o.provides: CMakeFiles/xgboost.dir/src/logging.cc.o.requires
+	$(MAKE) -f CMakeFiles/xgboost.dir/build.make CMakeFiles/xgboost.dir/src/logging.cc.o.provides.build
+.PHONY : CMakeFiles/xgboost.dir/src/logging.cc.o.provides
+
+CMakeFiles/xgboost.dir/src/logging.cc.o.provides.build: CMakeFiles/xgboost.dir/src/logging.cc.o
 
 
 # Object files for target xgboost
 xgboost_OBJECTS = \
-"CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.o" \
-"CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.o" \
-"CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.o" \
-"CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.o" \
-"CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.o" \
-"CMakeFiles/xgboost.dir/src/io/io.cpp.o" \
-"CMakeFiles/xgboost.dir/src/tree/updater.cpp.o" \
-"CMakeFiles/xgboost.dir/src/xgboost_main.cpp.o" \
-"CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.o" \
-"CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.o" \
-"CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.o" \
-"CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.o" \
-"CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.o" \
-"CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.o" \
-"CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.o" \
-"CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.o" \
-"CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.o" \
-"CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.o" \
-"CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.o" \
-"CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.o" \
-"CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.o" \
-"CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.o" \
-"CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.o" \
-"CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.o"
+"CMakeFiles/xgboost.dir/src/c_api/c_api.cc.o" \
+"CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.o" \
+"CMakeFiles/xgboost.dir/src/common/common.cc.o" \
+"CMakeFiles/xgboost.dir/src/data/data.cc.o" \
+"CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.o" \
+"CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.o" \
+"CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.o" \
+"CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.o" \
+"CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.o" \
+"CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.o" \
+"CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.o" \
+"CMakeFiles/xgboost.dir/src/gbm/gbm.cc.o" \
+"CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.o" \
+"CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.o" \
+"CMakeFiles/xgboost.dir/src/metric/metric.cc.o" \
+"CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.o" \
+"CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.o" \
+"CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.o" \
+"CMakeFiles/xgboost.dir/src/objective/objective.cc.o" \
+"CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.o" \
+"CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.o" \
+"CMakeFiles/xgboost.dir/src/tree/tree_model.cc.o" \
+"CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.o" \
+"CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.o" \
+"CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.o" \
+"CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.o" \
+"CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.o" \
+"CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.o" \
+"CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.o" \
+"CMakeFiles/xgboost.dir/src/cli_main.cc.o" \
+"CMakeFiles/xgboost.dir/src/learner.cc.o" \
+"CMakeFiles/xgboost.dir/src/logging.cc.o"
 
 # External object files for target xgboost
 xgboost_EXTERNAL_OBJECTS =
 
-xgboost: CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.o
-xgboost: CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.o
-xgboost: CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.o
-xgboost: CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.o
-xgboost: CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.o
-xgboost: CMakeFiles/xgboost.dir/src/io/io.cpp.o
-xgboost: CMakeFiles/xgboost.dir/src/tree/updater.cpp.o
-xgboost: CMakeFiles/xgboost.dir/src/xgboost_main.cpp.o
-xgboost: CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.o
-xgboost: CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.o
-xgboost: CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.o
-xgboost: CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.o
-xgboost: CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.o
-xgboost: CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.o
-xgboost: CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.o
-xgboost: CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.o
-xgboost: CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.o
-xgboost: CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.o
-xgboost: CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.o
-xgboost: CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.o
-xgboost: CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.o
-xgboost: CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.o
-xgboost: CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.o
-xgboost: CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.o
-xgboost: CMakeFiles/xgboost.dir/build.make
-xgboost: CMakeFiles/xgboost.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable xgboost"
+../xgboost: CMakeFiles/xgboost.dir/src/c_api/c_api.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/common/common.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/data/data.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/gbm/gbm.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/metric/metric.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/objective/objective.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/tree/tree_model.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/cli_main.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/learner.cc.o
+../xgboost: CMakeFiles/xgboost.dir/src/logging.cc.o
+../xgboost: CMakeFiles/xgboost.dir/build.make
+../xgboost: librabit.a
+../xgboost: CMakeFiles/xgboost.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking CXX executable ../xgboost"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xgboost.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/xgboost.dir/build: xgboost
+CMakeFiles/xgboost.dir/build: ../xgboost
 
 .PHONY : CMakeFiles/xgboost.dir/build
 
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/io/io.cpp.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/tree/updater.cpp.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/xgboost_main.cpp.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.o.requires
-CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/c_api/c_api.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/common/common.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/data/data.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/gbm/gbm.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/metric/metric.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/objective/objective.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/tree/tree_model.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/cli_main.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/learner.cc.o.requires
+CMakeFiles/xgboost.dir/requires: CMakeFiles/xgboost.dir/src/logging.cc.o.requires
 
 .PHONY : CMakeFiles/xgboost.dir/requires
 

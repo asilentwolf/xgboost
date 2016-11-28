@@ -1,50 +1,54 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "/Users/zhangwuhang/Documents/workspace/xgboost/R-package/src/xgboost_assert.c" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/R-package/src/xgboost_assert.c.o"
-  )
-set(CMAKE_C_COMPILER_ID "AppleClang")
-
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/zhangwuhang/Documents/workspace/xgboost/R-package/src/xgboost_R.cpp" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/R-package/src/xgboost_R.cpp.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/java/xgboost4j_wrapper.cpp" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/java/xgboost4j_wrapper.cpp.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gbm.cpp" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/gbm/gbm.cpp.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/src/io/dmlc_simple.cpp" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/io/dmlc_simple.cpp.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/src/io/io.cpp" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/io/io.cpp.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater.cpp" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/tree/updater.cpp.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/src/xgboost_main.cpp" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/xgboost_main.cpp.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/guide/basic.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/subtree/rabit/guide/basic.cc.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/guide/broadcast.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/subtree/rabit/guide/broadcast.cc.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/guide/lazy_allreduce.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/subtree/rabit/guide/lazy_allreduce.cc.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/allreduce_base.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_base.cc.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/allreduce_robust.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/subtree/rabit/src/allreduce_robust.cc.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/subtree/rabit/src/engine.cc.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_base.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/subtree/rabit/src/engine_base.cc.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_empty.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/subtree/rabit/src/engine_empty.cc.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_mock.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mock.cc.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/src/engine_mpi.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/subtree/rabit/src/engine_mpi.cc.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/lazy_recover.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/subtree/rabit/test/lazy_recover.cc.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/local_recover.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/subtree/rabit/test/local_recover.cc.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/model_recover.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/subtree/rabit/test/model_recover.cc.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/test/speed_test.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/subtree/rabit/test/speed_test.cc.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/subtree/rabit/wrapper/rabit_wrapper.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/subtree/rabit/wrapper/rabit_wrapper.cc.o"
-  "/Users/zhangwuhang/Documents/workspace/xgboost/wrapper/xgboost_wrapper.cpp" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/wrapper/xgboost_wrapper.cpp.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/c_api/c_api.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/c_api/c_api.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/c_api/c_api_error.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/c_api/c_api_error.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/cli_main.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/cli_main.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/common/common.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/common/common.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/data/data.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/data/data.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/data/simple_csr_source.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/data/simple_csr_source.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/data/simple_dmatrix.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/data/simple_dmatrix.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_dmatrix.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/data/sparse_page_dmatrix.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_raw_format.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/data/sparse_page_raw_format.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_source.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/data/sparse_page_source.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/data/sparse_page_writer.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/data/sparse_page_writer.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gblinear.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/gbm/gblinear.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gbm.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/gbm/gbm.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/gbm/gbtree.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/gbm/gbtree.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/learner.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/learner.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/logging.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/logging.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/metric/elementwise_metric.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/metric/elementwise_metric.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/metric/metric.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/metric/metric.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/metric/multiclass_metric.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/metric/multiclass_metric.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/metric/rank_metric.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/metric/rank_metric.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/objective/multiclass_obj.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/objective/multiclass_obj.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/objective/objective.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/objective/objective.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/objective/rank_obj.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/objective/rank_obj.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/objective/regression_obj.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/objective/regression_obj.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/tree_model.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/tree/tree_model.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/tree_updater.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/tree/tree_updater.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_colmaker.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/tree/updater_colmaker.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_histmaker.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/tree/updater_histmaker.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_prune.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/tree/updater_prune.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_refresh.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/tree/updater_refresh.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_skmaker.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/tree/updater_skmaker.cc.o"
+  "/Users/zhangwuhang/Documents/workspace/xgboost/src/tree/updater_sync.cc" "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/xgboost.dir/src/tree/updater_sync.cc.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../include"
+  "../dmlc-core/include"
+  "../rabit/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/Users/zhangwuhang/Documents/workspace/xgboost/cmake-build-debug/CMakeFiles/rabit.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
